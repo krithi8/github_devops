@@ -20,20 +20,20 @@
 	<distributionManagement>
     <repository>
         <id>central</id>
-        <name>MindDevops11-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
+        <name>MindDevops20-releases</name>
+        <url>http://localhost:8082/artifactory/Maven/</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>MindDevops11-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
+        <name>MindDevops20-snapshots</name>
+        <url>http://localhost:8082/artifactory/libs-snapshot-local/</url>
     </snapshotRepository>
 </distributionManagement>
 
 	<scm>
-		<connection>scm:git:git@github.com:Jamuna1998/devops.git</connection>
-		<developerConnection>scm:git:git@github.com:Jamuna1998/devops.git</developerConnection>
-		<url>git@github.com:Jamuna1998/devops.git</url>
+		<connection>scm:git:git@github.com:krithi8/github_devops.git</connection>
+		<developerConnection>scm:git:git@github.com:krithi8/github_devops.git</developerConnection>
+		<url>git@github.com:krithi8/github_devops.git</url>
 		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
