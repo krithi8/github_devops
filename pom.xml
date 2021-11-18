@@ -84,10 +84,6 @@
 				<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 	          
-				<configuration> 
-				<warSourceDirectory>WebContent</warSourceDirectory>		
-				<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
 			
 			</plugin>
 		</plugins>
